@@ -138,3 +138,72 @@ body {
 html {
   font-size: 62.5%;
 }
+body {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.flexBoxProperties {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.align * {
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+.sectionProperties {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+}
+.smallBlockProperties {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.largeBlockProperties {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+}
+.workHistory {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+}
+img {
+  width: 35%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+  flex-direction: column;
+}
+header * {
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+header h1 {
+  font-size: 2rem;
+}

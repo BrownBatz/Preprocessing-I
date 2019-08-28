@@ -59,7 +59,74 @@ html, body {
 
 /* END CSS RESET */
 
+@all: 100%;
+
+@almost: 75%;
+
+@small: 35%;
+
+@col: column;
+
 html{
 	font-size: 62.5%;
+}
+
+body{
+	width: @almost;
+	.flexBoxProperties();
+	flex-wrap: nowrap;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+.flexBoxProperties{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.align{
+	* {
+		margin: 0 auto;
+		padding: 10px 10px;
+	}
+}
+
+.sectionProperties{
+	.flexBoxProperties();
+	width: @all;
+}
+
+.smallBlockProperties{
+	.flexBoxProperties();
+}
+
+.largeBlockProperties{
+	.flexBoxProperties();
+}
+
+.intro{
+	.sectionProperties();
+}
+
+.workHistory{
+	.sectionProperties();
+}
+
+.skills{
+	.sectionProperties();
+}
+
+img{
+	width: @small;
+}
+
+header{
+	.sectionProperties();
+	flex-direction: @col;
+	.align();
+	h1 {
+		font-size: 2rem;
+	}
 }
 
