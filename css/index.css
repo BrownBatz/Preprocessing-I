@@ -139,71 +139,121 @@ html {
   font-size: 62.5%;
 }
 body {
-  width: 75%;
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  width: 75%;
   flex-wrap: nowrap;
   margin: 0 auto;
   flex-direction: column;
 }
 .flexBoxProperties {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
 }
 .align * {
   margin: 0 auto;
+  text-align: center;
   padding: 10px 10px;
 }
 .sectionProperties {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
   width: 100%;
 }
 .smallBlockProperties {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  width: 35%;
+}
+.smallBlockProperties h3 {
+  display: block;
 }
 .largeBlockProperties {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  width: 75%;
 }
 .intro {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
   width: 100%;
+}
+.intro * {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 10px;
 }
 .workHistory {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
   width: 100%;
+  margin: 0 auto;
+}
+.workHistory .largeBlock * {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 10px;
 }
 .skills {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
   width: 100%;
+  padding: 10px;
+}
+.skills .smallBlock {
+  padding: 10px;
+}
+.skills .smallBlock * {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 10px;
 }
 img {
   width: 35%;
 }
 header {
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
   width: 100%;
   flex-direction: column;
 }
 header * {
   margin: 0 auto;
+  text-align: center;
   padding: 10px 10px;
 }
 header h1 {
   font-size: 2rem;
+}
+.smallBlock {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  width: 35%;
+}
+.smallBlock h3 {
+  display: block;
+}
+.largeBlock {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  width: 75%;
 }

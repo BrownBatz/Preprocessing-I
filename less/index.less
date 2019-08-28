@@ -72,8 +72,8 @@ html{
 }
 
 body{
-	width: @almost;
 	.flexBoxProperties();
+	width: @almost;
 	flex-wrap: nowrap;
 	margin: 0 auto;
 	flex-direction: column;
@@ -81,40 +81,57 @@ body{
 
 .flexBoxProperties{
 	display: flex;
-	justify-content: space-between;
-	align-content: space-between;
+	justify-content: center;
+	align-content: center;
+	width: @all;
 }
 
 .align{
 	* {
 		margin: 0 auto;
+		text-align: center;
 		padding: 10px 10px;
 	}
 }
 
 .sectionProperties{
 	.flexBoxProperties();
-	width: @all;
 }
 
 .smallBlockProperties{
 	.flexBoxProperties();
+	margin: 0 auto;
+	width: @small;
+	h3{
+		display: block;
+	}
 }
 
 .largeBlockProperties{
 	.flexBoxProperties();
+	width: @almost;
 }
 
 .intro{
 	.sectionProperties();
+	.align();
 }
 
 .workHistory{
 	.sectionProperties();
+	margin: 0 auto;
+	.largeBlock{
+		.align();	
+	}
 }
 
 .skills{
 	.sectionProperties();
+	padding: 10px;
+	.smallBlock{
+		.align();
+		padding: 10px;
+	}
 }
 
 img{
@@ -128,5 +145,13 @@ header{
 	h1 {
 		font-size: 2rem;
 	}
+}
+
+.smallBlock{
+	.smallBlockProperties();
+}
+
+.largeBlock{
+	.largeBlockProperties();
 }
 
